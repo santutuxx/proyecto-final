@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<header>
-    <img src="../img/logo.png" alt="" class="img">
-    <h1>Proyecto final</h1>
-    <nav>
-        <a href="index.html" class="a">Inicio</a>
-        <a href="nosotros.html" class="a">Nosotros</a>
-        <a href="productos.html" class="a">Productos</a>
-    </nav>
-</header>
+
 <body>
-    
+    <header>
+        <img src="../img/logo.png" alt="" class="img">
+        <h1>Contactenos</h1>
+        <nav>
+            <a href="index.html" class="a">Inicio</a>
+            <a href="nosotros.html" class="a">Nosotros</a>
+            <a href="productos.html" class="a">Productos</a>
+        </nav>
+    </header>
+    <main id="main">
+        <h1 class="texto">Si tiene alguna consulta o queja, puede consultarnos aqui:</h1>
+        <form action=“enviar.php” method=“post”>
+            <label for=“queja”>Queja:</label>
+            <input type=“text” id=“queja” name=“queja”>
+            <label for=“email”>Email:</label>
+            <input type=“email” id=“email” name=“email”>
+            <button type=“submit”>Enviar</button>
+        </form>
+
+        <br>
+
+        <img src="img/contactenos.jpg" alt="">
+    </main>
+    <footer>
+        <p>
+            &copy; 2026 Tu Empresa. Todos los derechos reservados.
+            Queda prohibida la reproducción total o parcial de este sitio web, su contenido, imágenes y diseño sin
+            autorización previa por escrito.
+        </p>
+    </footer>
 </body>
+
 </html>
